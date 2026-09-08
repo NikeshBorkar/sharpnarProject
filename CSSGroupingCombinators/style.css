@@ -1,0 +1,126 @@
+/* You will focus on the following types of CSS selectors:
+
+
+
+
+
+Grouping Selector (,) → Targets multiple elements with the same styles.
+
+
+
+Adjacent Sibling Selector (+) → Targets the immediate next sibling element.
+
+
+
+General Sibling Selector (~) → Targets all siblings after a specific element.
+
+
+
+
+Deliverables:
+
+Your task is to add in place of this writw like CSS styles based on the selectors provided below.
+
+
+
+
+Apply Grouping Selector (,):
+
+Apply the following styles to h1 and h2 together:
+
+
+
+
+
+Color should be darkblue.
+
+
+
+Text should be centered.
+
+
+
+
+Apply Adjacent Sibling Selector (+):
+
+Select the paragraph (p) that comes immediately after h1 and apply the following styles:
+
+
+
+
+
+Color should be green.
+
+
+
+Text should be bold.
+
+
+
+
+Apply General Sibling Selector (~):
+
+Select all paragraphs (p) that come after h2 and apply the following styles:
+
+
+
+
+
+Color should be red.
+
+Select all span (span) that come after button and apply the following styles:
+
+
+
+
+
+text size should be 18px.
+
+
+
+Color should be purple.
+
+
+
+
+
+
+
+
+
+
+Instructions:
+
+
+
+
+
+Remove any comments and add the styles exactly as described.
+
+
+
+Use the correct selectors (h1, h2, p, span).
+
+
+
+Focus only on writing correct CSS rules in your compiler.
+ */
+
+
+  h1,h2{
+    color: darkblue;
+    text-align: center;
+ }
+
+ h1+p{
+    color: green;
+    font-weight: bold;
+ }
+h2~p{
+    color: red;
+}
+
+button~span{
+    font-size: 18px;
+    color: purple;
+}
