@@ -1,0 +1,28 @@
+* { 
+    /* Write your global styles here */
+    font-family: Arial,sans-serif;
+}
+
+.highlight { 
+    /* Write your class styles here */
+    background-color: yellow;
+    color: red;
+} 
+
+#unique { 
+    /* Write your ID styles here */
+    color: darkgreen;
+    background-color: lightblue;
+} 
+
+h2 { 
+    /* Write your h2 styles here */
+    text-align: center;
+    color: blue;
+} 
+
+p { 
+    /* Write your paragraph styles here */
+    font-size: 18px;
+    line-height: 1.5;
+}
