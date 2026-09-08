@@ -1,0 +1,162 @@
+/* What You Will Learn:
+
+You will focus on the following types of CSS selectors:
+
+Descendant Selector (parent child) – Targets all elements inside a specified parent.
+
+Child Selector (parent > child) – Targets only the direct children of a specified parent.
+
+Attribute Selector ([attribute="value"]) – Targets elements based on specific attributes.
+
+
+
+
+Deliverables:
+
+Apply styles using the descendant selector (.descendant p)
+
+
+
+
+
+All <p> elements inside the .descendant div should:
+
+
+
+Color: Blue
+
+
+
+Font Style: Italic
+
+
+
+
+Apply styles using the child selector (.child > p)
+
+
+
+
+
+Only direct <p> children of the .child div should:
+
+
+
+Color: Red
+
+
+
+Font Weight: Bold
+
+
+
+Nested <p> elements inside another <div> should NOT be affected.
+
+
+
+
+Apply styles using the attribute selector ([attribute="value"])
+
+
+
+
+
+For input fields with type="text":
+
+
+
+Border: 2px solid green
+
+
+
+Padding: 5px
+
+
+
+For the button with data-type="special":
+
+
+
+Background Color: Yellow
+
+
+
+Font Size: 18px
+
+
+
+
+Instructions:
+
+
+
+
+
+Write the CSS styles as per the selectors given above.
+
+
+
+Do NOT modify the HTML structure. Only add styles in the CSS file.
+
+
+
+Use the exact selector names (.descendant, .child, input[type="text"], button[data-type="special"]).
+
+
+
+Make sure the correct elements are targeted (Check the difference between child and descendant selectors!).
+
+
+
+*Important* : Remove the commented lines from the code while running the test cases.
+
+
+
+
+Expected Output:
+
+
+
+
+
+Once done, the page should have:
+
+
+
+Blue italic text for all <p> inside .descendant.
+
+
+
+Red bold text only for direct <p> children inside .child.
+
+
+
+Green-bordered input for text fields.
+
+
+
+Yellow background button with larger text. */
+
+
+
+.descendant p{
+    color: blue;
+    font-style: italic;
+}
+
+ .child > p{
+   color: red;
+   font-weight: bold;
+ }
+
+
+input[type="text"]{
+    border: 2px solid green;
+    padding: 5px;
+}
+
+button[data-type="special"]{
+    background-color: yellow;
+    font-size: 18px;
+
+}
