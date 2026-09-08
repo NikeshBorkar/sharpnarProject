@@ -1,3 +1,114 @@
+/* What You Will Learn:
+
+You will focus on the following types of CSS selectors:
+
+
+
+
+
+Universal Selector (*) – Applies styles to all elements.
+
+
+
+Element Selector (tagname) – Targets specific HTML tags like h1, p, div, etc.
+
+
+
+Class Selector (.classname) – Targets elements with a specific class.
+
+
+
+ID Selector (#idname) – Targets elements with a unique ID.
+
+
+
+
+Deliverables :
+
+Your task is to add CSS styles to the elements based on their selectors.
+
+
+
+
+Apply the following styles to all elements (Universal Selector *):
+
+
+
+
+
+font-family: Arial,sans-serif;
+
+
+
+
+Select the highlight class (.highlight):
+
+
+
+
+
+background-color: yellow;
+
+
+
+color: red;
+
+
+
+
+Select the unique ID (#unique) and apply the following styles:
+
+
+
+
+
+color: dark green;
+
+
+
+background-color: light blue;
+
+
+
+
+Select all h2 elements (Element Selector h2) and apply the following styles:
+
+
+
+
+
+text-align: center;
+
+
+
+color: blue;
+
+
+
+
+Select all p elements (Element Selector p) and apply the following styles:
+
+
+
+
+
+font-size: 18px;
+
+
+
+line-height: 1.5; */
+
+
+
+
+
+
+
+
+
+
+
+
 * { 
     /* Write your global styles here */
     font-family: Arial,sans-serif;
