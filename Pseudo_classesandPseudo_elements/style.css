@@ -1,0 +1,156 @@
+/* Deliverables:
+
+Apply styles using the :hover pseudo-class:
+
+
+
+
+
+Style the <button> tag to change its background color when hovered over.
+
+
+
+The background color should change to light blue when the button is hovered.
+
+
+
+Apply styles using the :focus pseudo-class:
+
+
+
+
+
+Style the <input> tag to have a red border when it is focused.
+
+
+
+The border should be 2px solid red when the input is focused.
+
+
+
+Apply styles using ::first-letter for paragraphs inside .container class:
+
+
+
+
+
+Style the first letter of paragraphs inside .container to:
+
+
+
+Be 2em in size
+
+
+
+Have bold font weight
+
+
+
+Apply styles using ::first-line for paragraphs inside .container class:
+
+
+
+
+
+Style the first line of paragraphs inside .container to have bold font weight.
+
+
+
+Apply styles using the container::selection pseudo-element:
+
+
+
+
+
+Style the selected text to:
+
+
+
+Have a yellow background
+
+
+
+Have black text color when text is selected.
+
+
+
+
+
+
+
+Instructions:
+
+
+
+
+
+Write the CSS styles as per the given pseudo-classes and pseudo-elements.
+
+
+
+Remove the commented lines while running the test cases.
+
+
+
+Use the exact selector names as instructed.
+
+
+
+Ensure correct syntax and usage of pseudo-classes and pseudo-elements.
+
+
+
+Expected Output:
+
+
+
+
+
+Buttons should change appearance when hovered.
+
+
+
+Input fields should have a distinct border when focused.
+
+
+
+Paragraphs should have uniquely styled first letters and first lines.
+
+
+
+Extra content should appear before and after headings.
+
+
+
+Text selection should have a custom highlight effect. */
+
+
+/* Changes the background color of a button when hovered */
+button:hover{
+    background-color: lightblue;
+}
+
+/* Changes the border of an input field when it is focused */
+input:focus{
+    border: 2px solid red;
+}
+
+
+/* Styles the first letter of the paragraph that has class "container" */
+  .container::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+/* Styles the first line of the paragraph that has class "container" */
+.container::first-line{
+   font-weight: bold; 
+}
+
+
+/* Styles the background and text color of selected text ::selection {}*/
+
+.container::selection{
+    background-color: yellow;
+    color: black;
+}
