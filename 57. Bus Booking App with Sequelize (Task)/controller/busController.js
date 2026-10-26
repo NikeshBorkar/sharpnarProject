@@ -41,10 +41,10 @@ const getAllBusesGreterthanSpeNum= async(req,res)=>{
     res.status(200).send(`buses tabel is empty`)
   }
   
-  console.log('All buses:', JSON.stringify(users, null, 2));
+  console.log('All buses:', JSON.stringify(buses, null, 2));
   res.status(200).json({
     message:"busess has been fetched",
-    busess:buses
+    buses:buses
   })
   
   } catch (error) {
